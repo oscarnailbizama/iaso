@@ -21,6 +21,14 @@ h1{
 	text-align: left;
 }
 
+h1:hover {
+	opacity: 10%;
+	font-weight: 900;
+	font-size: 8vh;
+	text-align: center;
+	transition: 0.4s;
+}
+
 body {
 	padding: 20px;
 	text-align: center;
@@ -34,6 +42,7 @@ body {
 	display: flex;
 	text-align: left;
 }
+
 
 p:hover {
 	font-size: 6vh;
